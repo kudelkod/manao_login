@@ -1,0 +1,13 @@
+{
+    "name": "dmitriy/manao_login",
+    "autoload": {
+        "psr-4": {
+            "Dmitriy\\ManaoLogin\\": "src/"
+        }
+    },
+    "require": {
+        "components/jquery": "^3.6",
+        "components/bootstrap": "^4.6",
+      "ext-json": "*"
+    }
+}
