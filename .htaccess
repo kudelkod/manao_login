@@ -1,0 +1,4 @@
+<Files src/db/db.json>
+ order allow,deny
+ deny from all
+ </Files>

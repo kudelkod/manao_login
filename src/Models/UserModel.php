@@ -26,8 +26,9 @@ class UserModel
         }
         return $this;
     }
-    public function createUser(){
-
+    public function createUser($parameters){
+        $this->c->create($parameters);
+        return true;
     }
     public function getAllLogins(){
         $data = $this->c->read();
